@@ -2,14 +2,14 @@
 {
   public class Driver
   {
-    private readonly Vehicle vehicle;
+    private Vehicle vehicle;
 
-    public Driver(Vehicle vehicle)
+    public void Drive(Vehicle vehicle)
     {
       this.vehicle = vehicle;
     }
 
-    public string Drive()
+    public string SpeedUp()
     {
       return vehicle.SpeedUp();
     }
