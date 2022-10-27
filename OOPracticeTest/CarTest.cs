@@ -22,7 +22,7 @@ namespace OOPracticeTest
     public void Should_return_speed_30_given_car_with_gasoline_engine()
     {
       // given
-      var car = new Car("Cool Car", (int)Engine.Gasoline);
+      var car = new Car("Cool Car", (int)Engine.GasolineEngine);
 
       // when
       string message = car.SpeedUp();
@@ -35,7 +35,7 @@ namespace OOPracticeTest
     public void Should_return_speed_25_given_car_with_electric_engine()
     {
       // given
-      var car = new Car("Cool Car", (int)Engine.Electric);
+      var car = new Car("Cool Car", (int)Engine.ElectricEngine);
 
       // when
       string message = car.SpeedUp();
