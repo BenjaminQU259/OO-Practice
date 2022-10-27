@@ -1,8 +1,8 @@
+using OOPractice;
+using Xunit;
+
 namespace OOPracticeTest
 {
-  using OOPractice;
-  using Xunit;
-
   public class CarTest
   {
     [Fact]
