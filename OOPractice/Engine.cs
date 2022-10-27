@@ -2,7 +2,14 @@
 {
   public enum Engine
   {
+    /// <summary>
+    /// Represents gasoline engine with 30 km/h
+    /// </summary>
     Gasoline = 30,
-    Electric = 25
+
+    /// <summary>
+    /// Represents electric engine with 25 km/h
+    /// </summary>
+    Electric = 25,
   }
 }
